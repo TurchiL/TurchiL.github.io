@@ -109,7 +109,7 @@ async function updatePublications() {
         
         if (data.recent_publications && data.recent_publications.length > 0) {
             // Use slice to get the first three publications
-            const recentPublications = data.recent_publications.slice(0, 3);
+            const recentPublications = data.recent_publications.slice(0, 3); // only takes three most recent publications
             
             recentPublications.forEach((pub, index) => {
                 const pubDiv = document.createElement('div');

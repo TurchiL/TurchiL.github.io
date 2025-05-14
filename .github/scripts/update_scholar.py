@@ -1,4 +1,4 @@
-from scholarly import scholarly
+from scholarly import scholarly # type: ignore
 import json
 from datetime import datetime
 import os
@@ -6,7 +6,7 @@ import sys
 
 def update_scholar_stats():
   try:
-      author = scholarly.search_author_id('YourGoogleScholarID-To retrieve, go to page and its between the = and & signs in the URL')
+      author = scholarly.search_author_id('f1yb8FMAAAAJ')
       author = scholarly.fill(author)
       
       stats = {
