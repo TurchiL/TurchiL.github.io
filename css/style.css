@@ -1,10 +1,10 @@
 :root {
     --primary-color: #2b2d42;
-    --accent-color: #6c63ff;
+    --accent-color: #0ea800;
     --text-color: #2b2d42;
     --light-bg: #f8f9fa;
     --white: #ffffff;
-    --gradient: linear-gradient(135deg, #6c63ff 0%, #3b82f6 100%);
+    --gradient: linear-gradient(135deg, #1fa402 0%, #378f01 100%);
 }
 
 * {
@@ -293,7 +293,7 @@ section {
 }
 
 .publication-item h3 a {
-    color: #2c5282;
+    color: #2c822c;
     text-decoration: none;
 }
 
@@ -302,7 +302,7 @@ section {
 }
 
 .publication-item .journal {
-    color: #4a5568;
+    color: #2c822c;
     font-weight: 500;
     margin: 0.5rem 0;
 }
@@ -315,7 +315,7 @@ section {
 }
 
 .abstract-toggle {
-    background-color: #2c5282;
+    background-color: #2a672a;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -327,7 +327,7 @@ section {
 }
 
 .abstract-toggle:hover {
-    background-color: #2a4365;
+    background-color: #215221;
 }
 
 .abstract {
@@ -337,7 +337,7 @@ section {
     border-radius: 4px;
     font-size: 0.95rem;
     line-height: 1.6;
-    color: #4a5568;
+    color: #2f552f;
 }
 
 /* Contact Section */
@@ -610,7 +610,7 @@ section {
 .education-item {
     margin-bottom: 0;
     padding: 1.5rem;
-    border-left: 3px solid #3498db; /* Different color from experience section */
+    border-left: 3px solid #21be02; /* Different color from experience section */
     background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: transform 0.2s ease;
@@ -627,7 +627,7 @@ section {
 .degree-title {
     font-size: 1.25rem;
     font-weight: 600;
-    color: #3498db;
+    color: #2f9300;
     margin-bottom: 0;
 }
 
