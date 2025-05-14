@@ -21,7 +21,8 @@ body {
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-color: var(--white);
+    /* background-color: var(--white); */
+    background-image: 'images/linkedin_profile_pic.jpg';
 }
 
 .container {
@@ -634,7 +635,7 @@ section {
 
 .degree-subject {
     font-size: 1.1rem;
-    color: #34495e;
+    color: #435e34;
     font-weight: 500;
     margin-bottom: 0;
 }
@@ -648,7 +649,7 @@ section {
 
 .university-name {
     font-size: 1.1rem;
-    color: #2c3e50;
+    color: #3b502c;
     margin-bottom: 0;
 }
 
